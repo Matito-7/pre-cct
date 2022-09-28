@@ -1,0 +1,443 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  position: relative;
+  top: 0px;
+  right: 20px;
+}
+
+.logo-img {
+  width: 70px;
+  height: 70px;
+  position: relative;
+  left: 130px;
+}
+
+.logo-texto {
+  font-size: 23px;
+  position: relative;
+  left: 134px;
+}
+
+.navegador-lista {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 1rem;
+}
+
+.navegador-lista li {
+  list-style-type: none;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+  text-align: center;
+  cursor: pointer;
+  background-color: rgb(17, 17, 233, 0.925);
+  border: 1px solid rgb(17, 17, 233, 0.925);
+  border-radius: 6px;
+  padding: 0;
+}
+
+.navegador-lista li:hover {
+  color: white;
+  background-color: rgb(17, 17, 233, 0.925);
+  border: rgb(17, 17, 233, 0.925);
+}
+
+.navegador-lista li:hover {
+  color: white;
+  background-color: rgb(17, 17, 233, 0.925);
+  border: rgb(17, 17, 233, 0.925);
+}
+
+.bar {
+  text-decoration: none;
+  color: white;
+}
+
+.bar:hover {
+  list-style-type: none;
+  color: white;
+}
+
+.Ondevai {
+  display: flex;
+  color: #fff;
+}
+
+.img-form {
+  background-image: url(imagem/imagem1.png);
+  height: 50vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-header {
+  background-color: rgb(21, 21, 189);
+  border: 1px solid blue;
+  border-radius: 6px;
+  margin: 70px;
+  padding: 30px 0px;
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: center;
+  border-radius: 6px;
+  font-family: "Montserrat Alternates", sans-serif;
+}
+
+.ida-e-volta {
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+.Ondevai {
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+.ida {
+  border: 1px solid black;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.ida:hover {
+  border: 1px solid blue;
+  background-color: blue;
+  color: white;
+}
+
+footer {
+  background-color: rgb(46, 46, 184);
+  padding: 50px;
+}
+
+.contents {
+  display: flex;
+  justify-content: space-around;
+  color: #fff;
+}
+
+.contents a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: lighter;
+}
+
+.socialmedias {
+  display: flex;
+  justify-content: center;
+}
+
+.socialmedias img {
+  width: 40px;
+  height: 40px;
+  border-radius: 10%;
+  margin: 40px 10px;
+  padding: 10px;
+}
+
+.container3 {
+  background-image: url(imagens/fundo-background.png.jpeg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  height: 350px;
+  top: 30.8px;
+}
+
+.dany {
+  margin: 10px 50px;
+}
+
+.dany .card {
+  margin: 0px 20px;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #f5f5f5;
+}
+
+.caixa {
+  padding: 10px 20px;
+}
+.top {
+  display: flex;
+  justify-content: space-between;
+}
+.top h1 {
+  font-size: 30px;
+}
+.cards {
+  display: flex;
+  justify-content: space-around;
+}
+
+.nacional .cardr:nth-child(1) {
+  background-image: url("imagens/belohorizonte.jpeg");
+}
+.nacional .cardr:nth-child(2) {
+  background-image: url("imagens/rio.jpeg");
+}
+.nacional .cardr:nth-child(3) {
+  background-image: url("imagens/fortaleza.jpeg");
+}
+.nacional .cardr:nth-child(4) {
+  background-image: url("imagens/salvador.jpeg");
+}
+.nacional .cardr:nth-child(5) {
+  background-image: url("imagens/maceio.jpeg");
+}
+.internacional .cardr:nth-child(1) {
+  background-image: url("ssa-0.jpg");
+}
+.cards .internacional {
+  display: none;
+}
+.internacional .cardr:nth-child(1) {
+  background-image: url("imagens/bali.jpeg");
+}
+.internacional .cardr:nth-child(2) {
+  background-image: url("imagens/bueno.jpeg");
+}
+.internacional .cardr:nth-child(3) {
+  background-image: url("imagens/santa.jpeg");
+}
+.internacional .cardr:nth-child(4) {
+  background-image: url("imagens/santiago.jpeg");
+}
+.internacional .cardr:nth-child(5) {
+  background-image: url("imagens/mendoza.jpeg");
+}
+
+.cards .cardr {
+  width: 250px;
+  height: 250px;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.cards .cardr h1 {
+  font-size: 23px;
+  color: #fff;
+  text-shadow: 1px 1px 5px #000;
+  text-align: center;
+  margin-top: 100px;
+}
+.buttonss .cards .cardr .badge {
+  position: absolute;
+  padding: 5px 10px;
+  border-radius: 3px;
+  top: 15px;
+  right: -15px;
+  background: orange;
+}
+
+.buttonss .btn {
+  color: rgb(192, 187, 187);
+  background-color: rgb(46, 46, 184);
+  padding: 6px 16px;
+  font-size: 0.875rem;
+  min-width: 64px;
+  box-sizing: border-box;
+  font-family: unset;
+  font-weight: 500;
+  line-height: 1.75;
+  border-radius: 10px;
+  text-transform: none;
+  cursor: pointer;
+  border-radius: 1 solid black;
+}
+
+.btn:hover {
+  background-color: blue;
+}
+
+.premio {
+  width: 90%;
+  display: flex;
+  margin: auto;
+  background-color: rgb(8, 8, 43);
+  color: white;
+  padding: 10px;
+  border-radius: 6px;
+  font-family: "Kanit", sans-serif;
+  margin-top: 70px;
+}
+
+.premios {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+}
+
+.card {
+  box-shadow: rgb(37 37 39 / 25%) 0.5rem 0.5rem 2rem 0px;
+}
+
+.botao-compre {
+  border: 2px solid orangered;
+  border-radius: 6px;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.botao-compre:hover {
+  background-color: orangered;
+  color: white;
+  cursor: pointer;
+  font-size: 25px;
+}
+
+.aplicativo {
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  flex-direction: row-reverse;
+  align-items: center;
+  background-color: rgb(8, 8, 43);
+  border-radius: 6px;
+  padding: 10px;
+  gap: 30px;
+  margin: auto;
+  margin-top: 30px;
+}
+
+.aplicativo img {
+  width: 200px;
+}
+
+.aplicativo .text p {
+  color: white;
+  font-size: 18px;
+  margin-bottom: 30px;
+  border-radius: 6px;
+}
+
+.aplicativo .text a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  background: #72b7f3;
+  padding: 5px 30px;
+  text-shadow: 1px 1px 5px #000000;
+}
+
+.texto-card {
+  text-decoration: none;
+  background-color: #ddd;
+  color: black;
+  border: 1px solid black;
+}
+
+.texto-card:hover {
+  list-style-type: none;
+  color: black;
+}
+
+.textu .textu-rapido h4 {
+  padding: 10px 50px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 30px;
+}
+
+.textu .textu-rapido .tiyu {
+  padding: 5px 50px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 30px;
+}
+
+.rodape{
+  margin-top: 5px;
+  background-color: grey;
+  display: flex;
+  justify-content: space-around;
+  height: 80px;
+  align-items: center;
+}
+
+.logo{
+  width: 70px;
+  height: 70px;
+}
+
+.meio-footer{
+  display: flex;
+}
+
+.nome-rodape{
+  padding-left: 8px;
+  font-size: 23px;
+}
+
+@media (max-width: 985px) {
+  .container {
+    width: 100%;
+  }
+
+  .form1 {
+    flex-direction: column;
+  }
+  .Ondevai {
+    flex-direction: column;
+  }
+  .img-form .form-header {
+    width: 700px;
+  }
+  .top {
+    margin-top: 20px;
+  }
+  .cards {
+    flex-wrap: wrap;
+    
+  }
+}
+
+@media (max-width: 650px) {
+  .premio {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+  }
+
+  .top {
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+  }
+
+  .premio img {
+    width: 60%;
+  }
+
+  .aplicativo {
+    flex-direction: column;
+    text-align: center;
+    padding: 10px;
+  }
+
+  .aplicativo .text {
+    width: 70%;
+  }
+}

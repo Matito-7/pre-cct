@@ -1,0 +1,22 @@
+.rodape{
+    margin-top: 5px;
+    background-color: grey;
+    display: flex;
+    justify-content: space-around;
+    height: 80px;
+    align-items: center;
+  }
+  
+  .logo{
+    width: 70px;
+    height: 70px;
+  }
+  
+  .meio-footer{
+    display: flex;
+  }
+  
+  .nome-rodape{
+    padding-left: 8px;
+    font-size: 23px;
+  }

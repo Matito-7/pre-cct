@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
+
+    <title>MDS Viagens</title>
+  </head>
+  <body>
+    <header class="container">
+      <img class="logo-img" src="imagens/logo-Travel-PNG.png" alt="" />
+      <p class="logo-texto">MDS Viagens</p>
+    </header>
+    <header class="container2">
+      <nav class="navegacao">
+        <ul class="navegador-lista">
+          <li>
+            <a class="bar" href="">Home</a>
+          </li>
+          <li>
+            <a class="bar" href="viagens1-site-main/Viagens-main/viagem.html">Produtos</a>
+          </li>
+          <li>
+            <a class="bar" href="siteee-main/MDS VIAGENS AREAS/fal.html">Fale Conosco</a>
+          </li>
+          <li>
+            <a class="bar" href="siteee-main/MDS VIAGENS AREAS/Histora da MDS VIAGENS/sobre.html">Quem somos:</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <header class="container3">
+      <div class="img-form">
+        <section class="form-header">
+          <div class="form1">
+            <form class="ida-e-volta" action="">
+              <label class="ida" for="">Ida e Volta</label>
+              <input type="radio" />
+              <label class="ida" for="">Só Ida</label>
+              <input type="radio" />
+            </form>
+            <br />
+
+            <form class="Ondevai">
+              <div>
+                <label for="">De onde você está saindo?</label>
+                <input type="text" placeholder="&#9992;" /><br />
+              </div>
+              <div>
+                <label for="">Para Onde você vai?</label>
+                <input type="text" placeholder="&#9992;" cols="50px" /><br />
+              </div>
+              <div>
+                <label for="">Ida</label>
+                <input type="date" placeholder="&#9638;" />
+              </div>
+              <div>
+                <label for="">Volta</label>
+                <input type="date" placeholder="&#9638;" />
+              </div>
+              <div>
+                <label for="">Passageiros</label>
+                <input type="number" placeholder="&#9786;" /><br />
+              </div>
+
+              <input type="submit" value="Buscar" />
+            </form>
+          </div>
+        </section>
+      </div>
+    </header>
+
+    <main class="conteudo">
+      <div class="premio">
+        <p class="premios">
+          O 1º lugar do Prêmio Reclame Aqui 2022 na categoria Turismo e Lazer /
+          Serviços É NOSSO!
+        </p>
+        <img class="premioReclameAqui" src="imagens/premioganha.jpeg" />
+      </div>
+      <div class="aplicativo">
+        <div class="text">
+          <p class="app-paragrafo">
+            Preparamos ofertas exclusivas no app!<br />
+            Acesse sua loja de aplicativos Android ou iOS e procure por
+            "Hurb".<br />
+            Depois é só baixar e aproveitar as ofertas
+          </p>
+
+          <a href="https://play.google.com/store/apps/details?id=com.booking"
+            >Baixar Aplicativo agora</a
+          >
+        </div>
+        <img src="imagens/vetor-app2.jpeg" class="vetor-img" />
+      </div>
+    </main>
+
+    <section class="textu">
+      <div class="textu-rapido">
+        <h4>Conheça alguns lugares do Brasil</h4>
+        <p class="tiyu">Estes destinos incríveis têm muito a oferecer</p>
+      </div>
+    </section>
+
+    <section class="dany">
+      <div class="card-group">
+        <div class="card">
+          <img
+            src="imagens/sd.jpeg"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">Campos do Jordão</h5>
+            <p class="card-text">881 acomodações.</p>
+            <p class="card-text">
+              <a class="texto-card" href="Home"><strong>Comprar</strong></a>
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <img
+            src="imagens/gsd.jpeg"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">Ubatuba</h5>
+            <p class="card-text">2.255 acomodações.</p>
+            <p class="card-text">
+              <a class="texto-card"><strong href="Home">Comprar</strong></a>
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="imagens/gramado.jpeg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Gramado</h5>
+            <p class="card-text">1.683 acomodações.</p>
+            <p class="card-text">
+              <a class="texto-card" href="Home"> <strong>Comprar</strong></a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="caixa">
+      <div class="top">
+        <div class="text">
+          <h1>VOOS COM ATÉ 50% DE DESCONTO</h1>
+          <p><strong>Saída:</strong> São paulo</p>
+        </div>
+        <div class="buttonss">
+          <button class="btn" id="nacionall">Nacional</button>
+          <button class="btn" id="internacional">Internacional</button>
+        </div>
+      </div>
+
+      <div class="cards nacional" id="cards_nacional">
+        <div class="cardr">
+          <h1>Belo Horizonte</h1>
+          <p class="botao-compre">COMPRE AQUI</p>
+        </div>
+
+        <div class="cardr">
+          <h1>Rio de Janeiro</h1>
+          <p class="botao-compre">COMPRE AQUI</p>
+        </div>
+
+        <div class="cardr">
+          <h1>Fortaleza</h1>
+          <p class="botao-compre">COMPRE AQUI</p>
+        </div>
+
+        <div class="cardr">
+          <h1>Salvador</h1>
+          <p class="botao-compre">COMPRE AQUI</p>
+        </div>
+
+        <div class="cardr">
+          <h1>Maceió</h1>
+          <p class="botao-compre">COMPRE AQUI</p>
+        </div>
+      </div>
+
+      <div class="cards internacional" id="cards_internacional">
+        <div class="cardr">
+          <h1>Bali</h1>
+          <p class="botao-compre">COMPRE AQUI</p>
+        </div>
+        <div class="cardr">
+          <h1>Buenos Aires</h1>
+          <p class="botao-compre">COMPRE AQUI</p>
+        </div>
+        <div class="cardr">
+          <h1>Santa Cruz de la Sierra</h1>
+          <p class="botao-compre">COMPRE AQUI</p>
+        </div>
+        <div class="cardr">
+          <h1>Santiago</h1>
+          <p class="botao-compre">COMPRE AQUI</p>
+        </div>
+        <div class="cardr">
+          <h1>Mendoza</h1>
+          <p class="botao-compre">COMPRE AQUI</p>
+        </div>
+      </div>
+    </section>
+
+    <footer class="rodape">
+      <div class="cartoes">
+        <a href="#"> <img src="imagens/ame.png" class="cartoes-icon"> </a>
+        <a href="#"> <img src="imagens/ele.png"  class="cartoes-icon"> </a>
+        <a href="#"> <img src="imagens/master4.png"  class="cartoes-icon"> </a>
+        <a href="#"> <img src="imagens/visa4.png"  class="cartoes-icon"> </a>
+      </div>
+      <div class="meio-footer">
+      <img src="imagens/logo-Travel-PNG.png" class="logo">
+      <p class="nome-rodape">MDS Viagens</p>
+    </div>
+        <div class="redes">
+           <a href="#"> <img src="imagens/tele3.png" class="redes-icon"> </a> 
+           <a href="#"> <img src="imagens/image.png" class="redes-icon"> </a>
+           <a href="#">  <img src="imagens/instA.png" class="redes-icon"> </a>
+           <a href="#"> <img src="imagens/tw3.png" class="redes-icon"> </a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
